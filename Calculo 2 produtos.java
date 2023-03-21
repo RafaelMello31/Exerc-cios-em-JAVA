@@ -8,8 +8,10 @@ public class Main
 		
 		System.out.println("Cálculo peças");
 		
+		System.out.println("Produto 1");
+		
 		System.out.println("Código do produto 1: ");
-		String cod1 = scanner.nextLine(); 
+		int cod1 = scanner.nextInt(); 
 		
 		System.out.println("Quantidade do produto 1: ");
 		int q1 = scanner.nextInt();
@@ -17,8 +19,10 @@ public class Main
 		System.out.println("Preço do produto 1: ");
 		double p1 = scanner.nextDouble();
 		
+		System.out.println("Produto 2");
+		
 		System.out.println("Código do produto 2: ");
-		String cod2 = scanner.nextLine();
+		int cod2 = scanner.nextInt();
 		
 		System.out.println("Quantidade do produto 2: ");
 		int q2 = scanner.nextInt();
@@ -29,7 +33,7 @@ public class Main
 		double pagar = (q1 * p1) + (q2 * p2);
 		
 		System.out.println("Valor a pagar: R$ " + pagar);
-		
+	
 		
 	}
 }
